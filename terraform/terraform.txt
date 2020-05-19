@@ -1,0 +1,28 @@
+Steps :-
+  1) terraform init
+  
+  2) terraform plan
+  
+  3) terraform apply 
+  
+  4) terraform destroy
+  
+  5) auto approve command :-  ex:- terraform apply -auto-approve -var="sample=NewWordl"
+  
+  6) terraform destroy -auto-approve
+  
+  Steps to run script 4
+  
+  1) terraform init
+  2) terraform plan -out ec2_instance.plan
+  3) terraform apply ec2_instance.plan
+  4) terraform show
+  5) terraform destroy
+
+  https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/tree/master/examples/basic
+  
+  
+   
+
+  
+  
