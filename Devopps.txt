@@ -1,0 +1,881 @@
+
+
+ VM ware details 
+ 
+ https://my.vmware.com/web/vmware/info?slug=desktop_end_user_computing/vmware_workstation_pro/12_0
+
+rajeshbala232@gmail.com
+Rajesh@32
+
+License Key :- UC3R8-A2X14-H80WP-Q5YET-QGAU8
+
+
+ 
+ Kubernates in 5 minutes link :- https://www.youtube.com/watch?v=PH-2FfFD2PU
+ 
+  Description :- Desired State Management 
+  
+   It has One Kubernates Cluster Services and having different workers 
+   It has different components sits here and run in different workers example API component .
+   
+   What is worker ? 
+   
+   Worker is just a container host in kubernates enviroment . 
+   
+   all workers communicate through Kubernates Cluster Services .
+   
+   
+   What is POD ? 
+   
+   Ans) Its a smallest unit in deployment in kubernates. 
+   
+   app.yml in Kubernates Cluster Services ??? 
+   
+   ans ) yes its in api component . 
+   
+   PODS having container images may be 2 .
+   
+app.yml 
+
+deployment 
+
+pod 1 ---> container img 1 
+           container img 2 
+		   
+		   replica -> 3 
+pod 2 ---> 	 container img 3 
+             replica -2 
+
+			 
+		   docker for desktop 
+		   
+		   Vizag port ---- Orchestration .... diff containers with different shops - end to end services . it is owned by google .. 
+
+           K8S ----------> Kubernates 
+           Docker ----> 
+		   
+		   30-03-2020 
+		   
+		   Linux IMage 
+		   
+		   https://developers.redhat.com/products/rhel/download?onebox=rhel
+ 
+           rajeshbala232@gmail.com
+Rajesh@32 
+
+           Docker Installation :- https://runnable.com/docker/install-docker-on-linux
+ 
+           The contents of /var/lib/docker/, including images, containers, volumes, and networks, are preserved. The Docker Engine - Community package is now called docker-ce.
+           
+		 Install Docker in centos  :- sudo yum install docker-ce-18.09.1 docker-ce-cli-18.09.1 containerd.io
+		 Install Docker in ubuntu  :-
+		 https://www.tutorialspoint.com/docker/installing_docker_on_linux.htm
+
+		 
+		 Start Docker :- sudo systemctl start docker
+		 
+		 Verify that Docker Engine - Community is installed correctly by running the hello-world image.
+
+       Verify Docker Image :- $ sudo docker run hello-world
+	   
+	       Timings :- 11 PM IST :- 7.30 PM CET 
+		              Devops ...
+					  
+	   
+		 AWS Account Details 
+		 
+		 email:- pulapa003@gmail.com
+         password :- Rajesh@32
+		 
+		 
+		 
+		 ubuntu 
+		 
+		 sudo apt-get update
+
+Options
+sudo − The sudo command is used to ensure that the command runs with root access.
+
+update − The update option is used ensure that all packages are updated on the Linux system.
+
+The next step is to install the necessary certificates that will be required to work with the Docker site later on to download the necessary Docker packages. It can be done with the following command.
+
+sudo apt-get install apt-transport-https ca-certificates
+
+		 Add New GPG Key 
+		 
+		 command :- sudo apt-get install docker-ce=<5:18.09.1~3-0~ubuntu-xenial> docker-ce-cli=<5:18.09.1~3-0~ubuntu-xenial> containerd.io
+		 
+		    https://www.addictivetips.com/ubuntu-linux-tips/install-docker-images-on-linux/ ---Docker in ubuntu 
+			https://docs.docker.com/engine/reference/commandline/exec/
+ 
+           docker run --name ubuntu_docker --rm -i -t ubuntu bash
+ 
+ 
+			Unix Commands 
+			
+			Grep Commands 
+			
+			
+			 1) grep -i demo text1.txt   :- it finds the word "demo" from text1.txt file 
+			 
+			    -i ---> ignores case sensitive 
+				
+		     2) grep -r pattern dir	
+               
+                ex:- grep -r demo grep 
+				     grep -r demo .  (In same directory) 
+					 
+					 
+
+              it searches demo word in the given directory grep .
+              -r ----> search recursively the given directory. 
+			  
+			  3) locate file 
+			    
+				 ex :- 
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+				
+				 Devops with Kubernates Stuff --- AWS and Devops .. 
+                    1)  4.30 Hours -- 3.30 Hours (7 PM CET)   10.30 PM -11.30 PM IST .. Rajesh and Sanjay and Me ..
+					
+					  1) How can create database backups  from windwos sql server 
+					  2) Distillery Jobs -- two duplicates .. and git comit immedialtely job should run..
+					  
+					   https://www.youtube.com/watch?v=Z3S2gMBUkBo  --->  Auto Trigger Jenkins Job after git commits.
+					 
+					 Status :- Sanjay will work on it and give demo to us .
+					  3) Jenkins Pipeline scripts -- 2-3 pipeline scripts for jenkins 
+					  
+					     1) Distillery backend --- 1) Git code and compile and build 
+						                           2) Sonar stage code review ....
+					4) Devops --- Terraform , Ansilbe and yaml files ... 1-2 Hours ..
+					     
+
+
+				Terraform :- https://www.middlewareinventory.com/blog/terraform-aws-example-ec2/
+                Ansible :- 
+
+                How to Create VPC and whats the use of it ??? 
+				
+				       Virtual Private Cloud  it gives separate network meaning its like intranet (Oranization limited)
+					   
+					   1) Create VPC 
+					   2) Create Internet gateway --> Meaning it connects our created vpc to outside world (Internet) 
+					   3) Attach our VPC to this Internet gateway.
+					   4) Create Subnet 
+					   5) create Route Tables --when create vpc it is create route table by default .
+					   6) edit route to connect internet gateway 
+					   7) edit subnet associations by our created subnet 
+					   8) Create Security groups for our created VPC 
+					   9) Edit Newtwork ACL with Security Groups and its inbound and outbound rules 
+					   (Need to learn more on VPC these concepts) 
+					   
+					   Testing Purpose :- 
+					   
+					    create one EC2 with this VPC ..
+						
+						
+						Windows for Kubernates 
+						
+						Private IP	10.0.1.203
+                       User name :- 	Administrator
+					   password :- .-4elu5hhLkpkmk$%XzpayJ!Q;dWqe2&
+					   
+					   
+					   
+					   
+					   
+					   
+					   
+                How to Create  Security Groups 
+				
+				           1) Create Security groups for our created VPC 
+						   2) 
+				
+				Linux commmands :- https://linoxide.com/linux-command/linux-commands-cheat-sheet/
+				
+				https://www.tecmint.com/linux-locate-command-practical-examples/
+ 
+                				
+				 Connect Unix box through SSH :- ssh -i "ec2_dev.pem" ubuntu@ec2-18-222-180-133.us-east-2.compute.amazonaws.com		
+                 commands :- 
+
+                   		MAVEN-3.6.0		 
+                 
+												   
+					https://www.javainuse.com/devOps/docker/docker-jar - deploy springboot to docker 
+					
+					--- centos ..
+					
+					Dokcer in ubuntu 
+					
+					1) docker search ubuntu ---> it will list all the ubuntu docker images 
+					
+					2) docker pull ubuntu --->  it will pull or download the ubuntu docker image or container .
+					
+					  ex:- docker pull java ---> it will pull java docker image 
+					3) docker run ubuntu ---> to run ubuntu docker image 
+					
+					4) docker images ---> it will list all the docker images which are running .
+					
+					5)  docker run -it java ----> To Login Docker image "java" container 
+					
+					6) whats the main purpose of Docker ? Very Important ..
+					
+					7) docker image build -t employee-prodcuer .(current directory)
+					
+					8) docker container run --name producer -p 8080:8080 -d employee-prodcuer 
+					
+					9) docker container logs producer 
+					
+					10) docker container exec -it producer /bin/sh --> Login to container than run here for rest response 
+					
+					11) curl -I localhost:8080/employee (Inside container)
+										
+					18.224.39.136:8080/employee 
+					
+					12) docker container stop producer ---> To stop docker container 
+					
+					13) docker container rm producer ---> To remove docker container
+					
+					14) docker network ls ---> list docker networks
+					
+					15) docker network create networkName
+					
+				disk clean space 
+
+                command run everyday using jenkins :- sudo apt autoremove
+				
+                Install Curl Command :- 
+
+                 Installing cURL for Ubuntu Linux
+The procedure to install cURL on Ubuntu Linux is as follows:
+
+Update your Ubuntu box, run: sudo apt update && sudo apt upgrade
+Next, install cURL, execute: sudo apt install curl
+Verify install of curl on Ubuntu by running: curl --version
+Let us see all commands in details.
+
+Ubuntu install curl command
+First update the system and get latest stable curl version for Ubuntu:
+$ sudo apt update
+$ sudo apt upgrade
+
+Type the following apt command or apt-get command:
+$ sudo apt install curl 
+
+Verification
+Run the following command:
+$ curl --version 
+
+Usage
+Once installed you can use it as follows to see the headers:
+$ curl -I https://www.google.co.in/
+$ curl -I https://www.cyberciti.biz/ 
+ curl -I localhost:8080/employee 
+
+Or download a file from a server using curl itself:
+curl -o output.file http://server1.cyberciti.biz/bar.foo.txt
+
+You can resume broken download with the curl command as follows:
+curl -L -O -C - http://ftp.ussg.iu.edu/linux/centos/latest/isos/file.iso 
+
+				
+					rename : docker container run --name producer -p 8080:8080 -d employee-prodcuer 
+					
+					7-04-2020 
+					
+	 https://www.javainuse.com/devOps/docker/docker-networking 
+
+     https://www.youtube.com/watch?v=L2UkQ2CND68 -- Deploy Angular 5 app using Docker ..
+
+    	 
+			
+			
+			
+			
+		  Deploy distillery using Docker Container 
+		  
+		  backup existing jenkins shell commands 
+		  
+		  sudo kill -9 $(lsof -t -i:9081) 
+
+nohup java -jar /home/ubuntu/cloud-services/distillary-backend/target/distillery-retailer-indentMgt-2.1.4.RELEASE.jar 
+
+       Actual Steps 
+	   
+	   sudo kill -9 $(lsof -t -i:9081)
+	   cd /home/ubuntu/cloud-services/distillary-backend
+	   docker container stop distilleryProd
+	   docker image build -t distillery .
+	   docker container run --name distillery -p 9081:9081 -d distillery
+	   docker container logs distillery
+	   
+	   Shell Scripting  /home/ubuntu/shellscripting -- Tracrat server 
+  
+	   
+	      bash -- Interpreters
+		  ksh  -- Interpreters
+		  CSH --  Interpreters 
+		  
+	   ./ script.sh   ---- to run shell script file .
+       ./ is mandatory to run any shell script .
+	   
+   curl -i localhost:9081/api/ifs/fetchSingleOFSByDistilleryId?ofsNo=1&distillerId=1
+		
+
+   Docker Compose  :-  https://www.youtube.com/watch?v=QkHEGVBZ88A 
+   
+    SSH in pipeline --->
+
+   https://tecadmin.net/tutorial/docker/docker-compose-example/ --> 
+   
+   Sanjay -- Terraform Complete by Sanjay.. ...  tomorrow explain ..
+   
+   Rajesh -- Shell Scripting 
+   
+    Terraform :- https://www.middlewareinventory.com/blog/terraform-aws-example-ec2/
+      in windwos :- https://www.terraform.io/downloads.html
+
+	   
+		AKIA3EQLPDSAL4R3LYMX --access key 
+
+   hVTXZVDRpDWL7N1GfqMD7lT3/vHQGb5K0GFFFKqa - secret key 
+
+    August 26th_55th Session 
+   
+	   Devopps in Telugu 
+	   
+	   SriHarsha Veeravalli 
+	   
+	   https://www.youtube.com/user/sreeharshav/playlists
+	   
+	   https://www.youtube.com/watch?v=VMewQHwTKr0&list=PLie35GAskAJkN2CKPrBqWD49BMTRit4uI 
+	   
+	   CI CD Jenkins :- https://www.youtube.com/watch?v=bCo0KgXgSFk&list=PLie35GAskAJkN2CKPrBqWD49BMTRit4uI&index=10 
+	   
+	   
+	   
+	   steps for docker hub
+	   
+	    1) pus img to docker hub 
+		2) docker pull docker hub 
+		3) values .yaml image name at repository 
+		  
+		  
+		  Deployment and Devops 
+		  
+		  Tasks 
+		  
+		   1) Git master -- branch - production code -- 14-04-2020 --- Sanjay 
+		   2) Implement Firewalls in both ubuntu and centos tracrat servers -
+		   3) Dont Open allPorts for both servers ... 
+		   
+		        Putty - 22 
+				microservies port enables 
+		   4) Docker Containers for all microservies  --- sanjay or ram Reference distillery 
+		   
+		       1) docker network tracrat 
+			   2) set of docker commands will stop existing container , remove container than create new container for every build with
+			   existing docker network called tracrat and run containers (run jars) 
+			   3) Test from gotracrat.in ----> 
+			   
+		    5) Push docker images to own registery and pull from docker repo  (distillary or tracrat) - ram 
+
+                Sample -- poc --
+				
+		    6)  Good hands on writing pipeline scripts which does - sanjay and ram 
+			
+			 below steps 
+			 
+			  1) take code from git 
+			  
+			  2) compile 
+			  
+			  3)  artificats management 
+			  
+			  4) connnect SSH to ubuntu server 
+			  
+			  5) run docker containers and deploy 
+			  
+			  6) sonar code review comments 
+			  
+			  
+			 7) AWS enviroment  - sanjay and ram 
+
+
+                 We should use new network for tracrat ..
+				 
+		     8) Hands on experience on shell scripting ..   sanjay and ram  and rajesh 
+			 
+			 
+			 9) Developt a  terraform script for ubuntu our tracrat enviroment -- sanjay and ram  and rajesh 
+			 
+			 10) Users and role management in aws account and jenkins  -- sanjay and ram 
+			 
+			  for ex :-  create 4 users 
+			    1) sanjay 2) mani 3) ram 4) sireesha 5) admin 
+				
+				   2) and 3) having distillary 2 jobs access remaining people when they login they should not see 
+				   
+				   for 4) she can only run jobs of tracrat and distillary but she cannot access configure and other modules ..
+				   
+		     11) able to write some shell scripts by our own to automate some clean up and effectively use post build actions of
+			  all jenkins jobs wisely to clean up space .. -- sanjay and ram 
+			  
+			  
+			  AWS and Terraform by sreeharsha 
+			  
+			  https://www.youtube.com/watch?v=niRQJjg5CAc
+			  
+			  Terraform Variables nice video : https://www.youtube.com/watch?v=9ck6LaBy-W8
+			  
+			  AWS and Terraform Interview Questions 
+			  
+			  terraform version :- 0.12.24
+			  provider aws :- v 2.57.0 
+              https://www.cyberithub.com/terraform-interview-questions/
+			  https://www.onlineinterviewquestions.com/terraform-interview-questions/
+			  https://dzone.com/articles/immutable-infrastructure-cicd-using-hashicorp-terr
+
+			   simple terraform script to create EC2 Instance 
+			   provider "aws" {
+region = "ap-south-1"
+}
+resource "aws_instance"
+"example" {
+ami = "ami-4fc58420"
+instance_type = "t2.micro"
+tags {
+  Name = "terraform-example"
+}
+}  
+
+   provider "aws"{
+   region : "us-east-2"
+     
+   }
+   
+   resource "aws_instance" "devec2" {
+       ami = "ami-4fc58420"
+	   instance_type = "t2.micro"
+	   tags {
+	      Name = "terraform-example"
+	   }
+   } 
+   
+   
+   variables.tf 
+   
+     variable "subnet_id" {
+        default = "subnet-08f84961347b05486"
+}
+    variable "ami_id" {
+	
+	   default = "ami-9374765475"
+	
+	}
+   
+   variable "jenkins_instance_type" {
+   
+      default = "t2.xlarge"
+   
+   }
+   
+   
+
+ why Terraform is important in devops ? 
+ 
+ There are a bunch of reasons for giving preference to Terraform to be used as one of the significant tools of DevOps.
+ The main motive of DevOps is to bring efficiency and quality in software delivery. 
+ For this, some tools are required for making the delivery smoother, faster and efficient.
+ Here, terraform comes to the limelight where it aids organizations in automating and also aids with infrastructure as code.
+ Terraform is helpful with its availability of implementing every type of coding principle.
+ The extraordinary feature of terraforming includes its quickness and the operations performed by it. 
+ These are some of the important reasons for which Terraform is gaining popularity and attention in the organizations.
+				   
+				   
+         				   
+				https://www.packer.io/downloads.html 
+
+                Packer + AWS + Terraform 
+
+                https://www.middlewareinventory.com/blog/packer-aws-terraform-example/ 
+
+                Firewall security to ubuntu server :- https://linuxconfig.org/how-to-configure-firewall-in-ubuntu-18-04
+				
+				   
+				snap-053f10fe5aa7629ab
+				
+				how-to-disable-ufw-ubuntu-externally
+				
+				I found a solution to the problem. I have explained them in the below points..
+
+I logged into my console and stopped the current instance
+Then went to the volumes section and detached my volume that was associated with the present instance.
+Then launched a new instance.
+then attached the volume of the previous instance to the new instance
+then logged into the new instance using ssh.
+used lsblk command to see that block devices attached to my instance. In my case there was two i.e. the one created along with the new instance and it was the root and the next was my previous instances volume which was still not mounted.
+then I mounted the previous volume into the instance by using the command sudo mount /dev/xvdf1 /mnt -t ext4 (Here i used xvdf1 because my data was present in that)
+then went to /mnt/etc/ufw/ufw.conf and changed enabled=yes to enabled=no
+saved the file and logged out
+again visited AWS console volume section and detached the previous volume and attached it to the stopped previous instance selecting exact previous instance and path as /dev/sda1
+went to instances tab and started the old instance.
+Now logged into the instance and it worked like a gem and all the files were intact.
+
+Jenkins shell commands in tracrat
+
+echo "removing dist content"
+sudo rm -rf /var/www/html/*
+echo "copying dist content"
+sudo cp  /var/lib/jenkins/workspace/gotracrat-webapp-test/dist/*  /var/www/html/
+cd /var/www/html/
+
+			 
+
+https://www.youtube.com/watch?v=JbQbwum196g  SSL 
+
+https://www.youtube.com/watch?v=zxEgB_fIpCE SSL
+ 
+
+gotracrat gotracrat.in 
+
+
+
+
+
+
+
+				 
+				 
+				 https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-centos-7  - ssl in centos 
+				 
+				 https://www.tecmint.com/change-root-directory-of-apache-web-server/ -- apache config directory centos 
+				 
+				 centos - jenkins node js 
+				 
+				 ubuntu - backend java and nodejs
+
+				 angular install  nginx -- 
+				 
+				 
+				 
+				 
+				 new servers 
+				 
+				  centos - jenkins node js   -- No Changes 
+				  
+				  ubuntu - backend java  +  New Changes  nodejs install and nginx config and SSL + Faster Performance of application 
+				  
+				  SSH Ubuntu 
+				  
+				  
+				  Tracrat Dev Server  NgInx Server Configuration Changes 
+				  
+				  1) sudo mkdir -p /var/www/gotracrat.in/html ---> here dist folder content should be copied 
+				  2) sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/tracrat
+				  3) sudo ln -s /etc/nginx/sites-available/tracrat /etc/nginx/sites-enabled/ 
+				 
+				  /var/www/gotracrat.in/html  ---> Virtual Hosting for tracrat. 
+				  
+				  4) nginx server stop command 
+				      command :- sudo systemctl stop nginx
+					  
+			      5) nginx server start command 
+
+                    command :- sudo systemctl start nginx				  
+				  4) Restart nginx server 
+				  
+				   sudo service nginx restart 
+				   sudo service nginx reload 
+				 
+				 
+				  
+				  changes :- 
+				  
+				 sudo mkdir -p /var/www/tracrat.com/html
+				 sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/tracrat
+				 sudo ln -s /etc/nginx/sites-available/tracrat /etc/nginx/sites-enabled/ 
+				 
+				 /var/www/tracrat.com/html  ---> Virtual Hosting for tracrat. 
+				 
+				 restart nginx server 
+				 sudo service nginx restart 
+				 sudo service nginx reload
+
+				 XXXXXX - Ubuntu 
+				 
+				 XXXXXX - centos 
+				 
+				sudo scp -r dist/* root@XXXXXX:/var/www/tracrat.com/html/
+				  
+               dist-copy
+               
+               try_files $uri /index.html;
+              https://certbot.eff.org/lets-encrypt/ubuntuxenial-nginx
+              https://askubuntu.com/questions/1109982/e-could-not-get-lock-var-lib-dpkg-lock-frontend-open-11-resource-temporari 
+			  
+			  
+			  sudo apt auto-remove  --> to remove unneccesary data 
+			  prasanna effort 
+			  230 PM - 430 pm ist - 08 may -2.30 hours 
+			  230 PM - 5.00 pm ist - 09 may 3 hours 
+			  
+			  
+			  
+			  
+			   
+			   
+			  
+
+				  
+				  sudo cp  /var/lib/jenkins/workspace/gotracrat-webapp-test/dist/*  /var/www/html/
+            cd /var/www/html/
+				  
+				  
+				  
+				   crreate 
+				 New AWS Account For Developement 
+				 
+				 IAM users 
+				 
+				 Username :- tracratdev
+				 Password :- 
+				 
+
+				  
+				 Developement or test enviroment 
+				 
+				 domain name :- test.gotracrat.in 
+				 
+				 requirments :- ubuntu instance free tier - t2-micro 
+				 install nodejs and nginx 
+				 
+				 database - new database 
+				 
+				 
+				 
+				 docker 
+				 
+				 kubernates 
+				 
+				 terraform 
+				 
+				 
+				 Check DNS Domain for website :-  http://whois.domaintools.com/gotracrat.in
+				 
+				 
+				  
+				 https://stackoverflow.com/questions/13976305/pool-empty-unable-to-fetch-a-connection-in-10-seconds
+				 
+				 https://github.com/cloudfoundry/uaa/issues/165 
+				 
+				 
+				 Tracrat Production issue connection pooling issue 
+				 {"timestamp":1588957669549,"status":500,"error":"Internal Server Error","exception":"org.springframework.jdbc.UncategorizedSQLException","message":"CallableStatementCallback; uncategorized SQLException for SQL []; SQL state [null]; error code [0]; [http-nio-8087-exec-3] Timeout: Pool empty. Unable to fetch a connection in 0 seconds, none available[size:150; busy:150; idle:0; lastwait:200].; nested exception is org.apache.tomcat.jdbc.pool.PoolExhaustedException: [http-nio-8087-exec-3] Timeout: Pool empty. Unable to fetch a connection in 0 seconds, none available[size:150; busy:150; idle:0; lastwait:200].
+				 ","path":"/api/item/advancedSearchItemsByUser/true/99B27614-A682-4BA3-B9CE-7E52CFA659D7"}
+				 
+				 
+				 
+spring.datasource.tomcat.initial-size=10
+
+spring.datasource.tomcat.max-wait=30000
+
+spring.datasource.tomcat.max-active=150
+
+spring.datasource.tomcat.max-idle=100
+
+spring.datasource.tomcat.min-idle=10
+
+spring.datasource.tomcat.default-auto-commit=true  
+
+   https://medium.com/trabe/fitting-the-artifact-size-in-spring-boot-applications-2b1da22a709e 
+   
+   
+				 http://XXXXXX:8080/job/attribute-types-management/
+				 
+				 
+				 
+				 Check Jenkins Version in Linux 
+				 
+				 https://curiousviral.com/how-to-check-jenkins-version/ 
+				 
+				 cd  /var/lib/jenkins/ 
+				 
+				 cat config.xml 
+				 
+				 you can find in version tag 
+				 
+				 Jenkins 2.176.3 - Tracrat Current Jenkins Version 
+				 
+				 Download Jenkins New Version in Centos in one directory 
+				 
+				 command :-  wget http://updates.jenkins-ci.org/download/war/2.222.3/jenkins.war
+				 
+				 New Jenkins Version war copied here :-  /home/centos/new_jenkins
+ 
+                 Old Jenkins Version war copied here :- 
+				 
+				 cp /usr/lib/jenkins/jenkins.war /home/centos/
+				 
+				 https://www.unionen.se/
+				 
+				 Jenkins Upgrade 
+				 
+				 https://www.thegeekstuff.com/2016/06/upgrade-jenkins-and-plugins/
+				 
+				 ping gotracrat.com
+				 
+				 
+				 Ports for Dev Server in bound rules 
+				 
+				 1) 8087 
+				 2) 8054
+				 3) 8089
+				 4) 8085
+				 5) 8088 
+				 6) 8081 
+				 7) 443 - https 
+				 
+				 
+				 https://blog.e-zest.com/how-to-do-scp-from-one-ec2-instance-to-another-ec2-instance/
+				 
+				   sudo scp -r /home/ubuntu/cloud-services/*  ubuntu@52.15.255.51:/home/ubuntu/cloud_services/
+				   
+				   scp command 
+				   
+				   scp -i ~/home/ubuntu/tracrat-dev-pem/tracrat-dev.pem /home/ubuntu/cloud-services/*  ubuntu@52.15.255.51:/home/ubuntu/cloud_services/
+
+                   scp -i ~/Path-To-Key-File/AAA.gem /path/file  ec2-user@<Elastic IP>:/path/file
+
+				 
+				  
+                  ssh-keygen -R 54.72.242.0
+
+
+                  sudo chmod 600 ec2-key-pair.pem
+				  
+				  ssh -i ec2-key-pair.pem ec2-user@ec2-54-72-242-0.eu-west-1.compute.amazonaws.com
+			  
+			  
+			      sudo scp id_rsa.pub ubuntu@XXXXXX:/home/ubuntu
+
+
+
+               HTTPS code fixes in htmls of angular code 
+			   
+			   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">  
+			   
+			   
+			   Java Side :- security.require-ssl=true
+			   
+			   https://medium.com/@rubenvermeulen/running-angular-cli-over-https-with-a-trusted-certificate-4a0d5f92747a 
+			   
+			   command to know jar jars in linux :- netstat -lntp 
+			   
+			   sudo rm -rf cd /home/ubuntu/cloud-services/distillary-backend/
+               sudo mkdir  /home/ubuntu/cloud-services/distillary-backend
+			   
+			   sudo curl https://gotracrat.com 
+			   
+			   
+			   apache2 server installed in centos and command to open conf file 
+			   
+			   syntax :- nano /etc/httpd/conf/httpd.conf 
+			   
+			   
+			   
+			   
+			   AWS API gateway,Lambda and Dynamo Db with Java link :- https://www.youtube.com/watch?v=TbCNVApI4lA&t=2s 
+			   
+			   
+                Terraform :- 
+				
+				1) we have created ec2 server using existing key pair values but when i connect through SSH im not able to connect why ? 
+				
+				
+				*/master 
+				
+				
+				Current Situation 
+				7 apps - */master 
+				
+				prod - dev app branches  - 7 apps  -- deployed to production ----
+				
+				
+				Actual Standards
+				master branch - main branch - Production Code - Deployment
+				dev branches - dev enviroment code - Deployment 
+				
+				Current  Environment
+				Master branch - main branch - Dev enviroment code - Deployment ---> Merge Dev Code to Master Branch Code
+				Dev branches - Production Code - Deployment - Successful 
+				
+				
+				Master and Dev Branch  Stable 
+				
+				
+				cd /home/ubuntu/cloud_services/api-gateway
+                sudo rm -rf location-management attribute-types-management  
+
+            Docker :- docker image ls
+			docker image rm -f 75835a67d134 2a4cca5ac898
+			
+			Terraform scripts github repo :- https://github.com/terraform-aws-modules/terraform-aws-security-group 
+			
+			
+			
+				
+				
+				
+				
+				
+				
+  
+				  
+			      
+			      
+			  
+		   
+		   
+
+		   
+				
+		
+	   
+	   
+	   
+
+
+	   
+	   
+	   
+
+	   
+	
+	 
+		 
+		 
+
+		   
+
+
+		   
+           		   
+		   
+		   
+
+   
+   
